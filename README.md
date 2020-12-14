@@ -1,7 +1,7 @@
 ### __Chart.js example__
 ***
 
-Try the **[Demo]**!
+Try the **[Demo](https://population-charts.netlify.app/)**!
 
 ***
 
