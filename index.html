@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <title>Charts</title>
+     <meta name="description" content="DESCRIPTION">
+     <link rel="icon" href="bar-chart.png">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Archivo|Archivo+Black&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="scrollbar.css">
+
+     <!--[if lt IE 9]>
+       <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <![endif]-->
+ </head>
+
+ <body>
+
+   <div class="title">World City Populations</div>
+   <div id="main-container">
+     <div id="bar-chart-container" class='try'>
+       <canvas id="bar-chart"></canvas>
+     </div>
+     <div id="line-chart-container">
+       <canvas id="line-chart"></canvas>
+     </div>
+   </div>
+
+   <script src="bar_chart.js"></script>
+   <script src="line_chart.js"></script>
+
+ </body>
+
+ </html>

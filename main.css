@@ -1,0 +1,32 @@
+body {
+  background: #1D1F20;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Archivo Black', sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+#main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#bar-chart-container {
+  width: 54rem;
+  height: 30rem;
+  margin-bottom: 3rem;
+}
+
+#line-chart-container {
+  width: 52rem;
+  height: 30rem;
+}
